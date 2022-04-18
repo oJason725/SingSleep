@@ -25,3 +25,13 @@ input {
 ::placeholder {
   color: whitesmoke;
 }
+
+.test {
+    height: 50px;
+    width: 50px;
+}
+
+.buttonImg {
+    height: 35px;
+    width: 35px;
+}
