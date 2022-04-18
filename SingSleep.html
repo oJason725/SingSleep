@@ -1,14 +1,17 @@
-<button onclick="showContent()">Show hidden content</button>
+<!DOCTYPE html>
 
-<template>
-  <h2>Flower</h2>
-  <img src="img_white_flower.jpg" width="214" height="204">
-</template>
+<html>
+<link rel="SingSleep" href="SingSleep.css">
+<body>
+<input type="button" value="Previous Song">
+<input type="button" value="Play">
+<input type="button" value="Stop">
+<input type="button" value="Next Song">
 
-<script>
-function showContent() {
-  var temp = document.getElementsByTagName("template")[0];
-  var clon = temp.content.cloneNode(true);
-  document.body.appendChild(clon);
-}
-</script>
+<button class="test"><img src="img/PreviousSong.png"></button>
+<button class="test"><img src="img/Stop.png"></button>
+<button class="test"><img src="img/playbutton.png"></button>
+<button class="test"><img src="img/NextSong.png"></button>
+</body>
+
+</html>
